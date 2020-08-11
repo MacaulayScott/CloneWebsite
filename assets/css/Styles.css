@@ -1,3 +1,7 @@
 body{
     text-align: center;
 }
+
+p{
+    text-size-adjust: 2px;
+}
