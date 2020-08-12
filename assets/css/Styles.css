@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
@@ -6,10 +6,9 @@
 body {
     background-color: #4c5055;
     font-family:"Work Sans", sans-serif;
-
 }
 
-nav{
+nav {
     max-width: 110%;
     height: 60px;
     background-color: #24292e;
@@ -19,7 +18,7 @@ nav{
 }
 
 
-ul>* {
+ul > * {
     display: inline-block;
     margin-bottom: 5px;
     text-align: left;
@@ -34,7 +33,7 @@ a {
     transition: all 0.25s ease-in-out;
 }
 
-a:hover{
+a:hover {
     color: #656b72;
 
 }
@@ -43,11 +42,11 @@ img {
     padding-top: px;
 }
 
-.float-left{
+.float-left {
     float: left;
 }
 
-.float-right{
+.float-right {
     float: right;
 }
 
@@ -55,18 +54,18 @@ img {
     width: 50%;
 }
 
-li{
+li {
     line-height: 40px;
     
 
 }
 
-button{
+button {
     border-radius: 3px;
     border-color: white;
 }
 
-nav ul{
+nav ul {
     float: left;
     color: white;
     padding: 0 30px;
@@ -79,7 +78,7 @@ nav ul li {
     padding-right: 30px;
 }
 
-nav ul li ul{
+nav ul li ul {
    visibility: hidden;
    position: absolute;
    background-color: #ffffff;
@@ -91,10 +90,10 @@ nav ul li ul{
    width: 300px
 }
 
-nav ul li:hover ul{
+nav ul li:hover ul {
     visibility: visible;
-   transition: all 0.25s ease-in-out;
-   opacity: 1;
+    transition: all 0.25s ease-in-out;
+    opacity: 1;
 }
 
 nav ul li ul li {
@@ -103,13 +102,13 @@ nav ul li ul li {
 }
     
 
-nav ul li ul a{
+nav ul li ul a {
     padding: 5px 0px;
     color: black;
 } 
 
 nav ul li ul a:hover {
-    color: rgb(0, 132, 255);
+    color: rgb(0, 102, 255);
 } 
 
 .rotate-180 {
@@ -119,65 +118,58 @@ nav ul li ul a:hover {
 
 .button{
     border-radius: 4px;
-  background-color: #24292e;
-  border: none;
-  color: #fff;
-  text-align: center;
-  font-size: 14px;
-  padding: 10px;
-  width: 80px;
-  transition: all 0.5s;
-  cursor: pointer;
+    background-color: #24292e;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 80px;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
-button{
+button {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
-  
-  button:after {
+}
+
+button:after {
     content: '»';
     position: absolute;
     opacity: 0;  
     top: 14px;
     right: -20px;
     transition: 0.5s;
-  }
-  
-  button:hover{
+}
+
+button:hover {
     padding-right: 24px;
     padding-left:8px;
-  }
-  
-  button:hover:after {
+}
+
+button:hover:after {
     opacity: 1;
     right: 10px;
-  }
+}
 
-::placeholder{
+::placeholder {
     color: rgb(182, 180, 180);
     font-family:"Work Sans", sans-serif;
-    font-size: 14px;
-    
+    font-size: 14px;   
 }
 
 input[type=text] {
     padding: 7px;
     background-color: #656b72;
-    border-radius: 7px;
-    
+    border-radius: 7px;  
 }
-
-.border{
+.border {
     border-radius: 90%;
 }
 
-
-
-
-
-
-
-
+.caret {
+    line-height: 35px;
+}
