@@ -1,7 +1,183 @@
-body{
-    text-align: center;
+*{
+    padding: 0px;
+    margin: 0px;
 }
 
-p{
-    text-size-adjust: 2px;
+body {
+    background-color: #4c5055;
+    font-family:"Work Sans", sans-serif;
+
 }
+
+nav{
+    max-width: 110%;
+    height: 60px;
+    background-color: #24292e;
+    padding-top: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+ul>* {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: left;
+    text-decoration: none;
+    align-items:center;
+    float: left;
+}
+
+a {
+    text-decoration: none; 
+    color: white;
+    transition: all 0.25s ease-in-out;
+}
+
+a:hover{
+    color: #656b72;
+
+}
+
+img {
+    padding-top: px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.width{
+    width: 50%;
+}
+
+li{
+    line-height: 40px;
+    
+
+}
+
+button{
+    border-radius: 3px;
+    border-color: white;
+}
+
+nav ul{
+    float: left;
+    color: white;
+    padding: 0 30px;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    padding-right: 30px;
+}
+
+nav ul li ul{
+   visibility: hidden;
+   position: absolute;
+   background-color: #ffffff;
+   padding: 20px;
+   float: left;
+   border-radius:10px;
+   transition: all 0.25s ease-in-out;
+   opacity: 0;
+   width: 300px
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+   transition: all 0.25s ease-in-out;
+   opacity: 1;
+}
+
+nav ul li ul li {
+    font-size: 14px;
+    width: 100%;
+}
+    
+
+nav ul li ul a{
+    padding: 5px 0px;
+    color: black;
+} 
+
+nav ul li ul a:hover {
+    color: rgb(0, 132, 255);
+} 
+
+.rotate-180 {
+    transform: rotate(180deg);
+    float: right;
+}
+
+.button{
+    border-radius: 4px;
+  background-color: #24292e;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 80px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+::placeholder{
+    color: rgb(182, 180, 180);
+    font-family:"Work Sans", sans-serif;
+    font-size: 14px;
+    
+}
+
+input[type=text] {
+    padding: 7px;
+    background-color: #656b72;
+    border-radius: 7px;
+    
+}
+
+.border{
+    border-radius: 90%;
+}
+
+
+
+
+
+
+
+
