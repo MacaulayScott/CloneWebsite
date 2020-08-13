@@ -113,7 +113,7 @@ nav ul li ul a:hover {
     color: rgb(0, 102, 255);
 } 
 
-.button1{
+.button-one{
     border-radius: 4px;
     background-color: #24292e;
     border: none;
@@ -169,7 +169,7 @@ h1 {
         color: #fff;
 }
 
-.section-1 {
+.section-one {
     height: 650px;
     width: 100%;
     position: relative;
@@ -189,7 +189,7 @@ h1 {
     bottom: 10%;
 }
 
-.text-div1 {
+.text-div-one {
     position: absolute;
     height: 100px;
     width: 490px;
@@ -240,7 +240,7 @@ form input[type=text]:focus {
     box-shadow: blue 0 0 10px;
 }
 
-.section2 {
+.section-two {
     position: relative;
     width: 1235;
     height: 327px;
@@ -256,17 +256,17 @@ form input[type=text]:focus {
     width: 900px;
 }
 
-.text-div2 {
+.text-div-two {
     color: black
     height 100px;
     width: 300px;
     font-size: 18px;
     position: absolute;
     right: 60%;
-    bottom: 25%;
+    bottom: 15%;
 }
 
-.text-div3 {
+.text-div-three {
     color: black;
     height: 100px;
     width: 350px;
@@ -281,7 +281,7 @@ form input[type=text]:focus {
 
 .blue-button {
     color: white;
-    background-color: rgb(0, 81, 255);
+    background-color: rgb(0, 162, 255);;
     height: 50px;
     width: 150px;
     border-radius: 7px;
@@ -290,11 +290,11 @@ form input[type=text]:focus {
 }
 
 .blue-button:hover {
-    background-color: blue;
+    background-color: rgb(0, 102, 255);
     transition: all 500ms ease-in-out;
 }
 
-.text-div4 {
+.text-div-four {
     color: black;
     height: 100px;
     width: 350px;
@@ -307,6 +307,17 @@ form input[type=text]:focus {
     line-height: 13px;
 }
 
+.border-button{
+    color: rgb(0, 162, 255);
+    font-size: medium;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 162, 255);
+    
+}
+
 .small-image {
     height: 600px;
     width: 600px;
@@ -315,6 +326,49 @@ form input[type=text]:focus {
     bottom: 120px;
     pointer-events: none;
 }
+
+.border-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .border-button span:after {
+    content: '&#8594';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 10px;
+    transition: 0.5s;
+  }
+
+  .border-button:hover span {
+    padding-left: 10px;
+  }
+
+  .border-button:hover{
+    color: rgb(0, 162, 255);
+    font-size: medium;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 7px;
+    border: 1px solid rgb(8, 114, 175);
+  }
+
+#para-one {
+    line-height: 35px;
+}
+
+#header-one {
+    line-height: 45px;
+}
+
+.font-size-11 {
+    font-size: 11px;
+}
+
 
 
 
