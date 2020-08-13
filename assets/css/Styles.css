@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #4c5055;
+    background-color: rgb(247, 247, 247);
     font-family:"Work Sans", sans-serif;
 }
 
@@ -27,13 +27,13 @@ ul > * {
     float: left;
 }
 
-a {
+nav a {
     text-decoration: none; 
     color: white;
     transition: all 0.25s ease-in-out;
 }
 
-a:hover {
+nav a:hover {
     color: #656b72;
 
 }
@@ -87,7 +87,9 @@ nav ul li ul {
    border-radius:10px;
    transition: all 0.25s ease-in-out;
    opacity: 0;
-   width: 300px
+   width: 300px;
+   z-index: 10;
+   
 }
 
 nav ul li:hover ul {
@@ -111,12 +113,7 @@ nav ul li ul a:hover {
     color: rgb(0, 102, 255);
 } 
 
-.rotate-180 {
-    transform: rotate(180deg);
-    float: right;
-}
-
-.button{
+.button1{
     border-radius: 4px;
     background-color: #24292e;
     border: none;
@@ -129,39 +126,13 @@ nav ul li ul a:hover {
     cursor: pointer;
 }
 
-button {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-button:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;  
-    top: 14px;
-    right: -20px;
-    transition: 0.5s;
-}
-
-button:hover {
-    padding-right: 24px;
-    padding-left:8px;
-}
-
-button:hover:after {
-    opacity: 1;
-    right: 10px;
-}
-
 ::placeholder {
     color: rgb(182, 180, 180);
     font-family:"Work Sans", sans-serif;
     font-size: 14px;   
 }
 
-input[type=text] {
+nav input[type=text] {
     padding: 7px;
     background-color: #656b72;
     border-radius: 7px;  
@@ -171,5 +142,183 @@ input[type=text] {
 }
 
 .caret {
-    line-height: 35px;
+    line-height: 42px;
+    float: right;
 }
+
+.parent:hover .caret {
+    transform: rotate(90deg);
+    transition: 500ms ease;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.grey-text {
+    color: #8b929c;
+    font-size: 21px;
+}
+
+.underline {
+        color: rgb(199, 198, 198);
+}
+
+.underline:hover {
+        color: #fff;
+}
+
+.section-1 {
+    height: 650px;
+    width: 100%;
+    position: relative;
+    background: #2b3137 url(https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg) no-repeat;
+    background-size: cover;
+}
+
+.form-div {
+    background-color: white;
+    border: #fff;
+    border-radius: 7px;
+    height: 420px;
+    width: 400px;
+    padding: 50px 20px;
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+}
+
+.text-div1 {
+    position: absolute;
+    height: 100px;
+    width: 490px;
+    right: 52%;
+    bottom: 55%;
+}
+
+.green-button {
+    height: 60px;
+    width: 400px;
+    border-radius: 8px;
+    background-color: rgb(27, 192, 27);
+    color: white;
+    font-size: 16px;
+    border-style: none;
+}
+
+.green-button:hover {
+    background-color: rgb(10, 134, 10);
+    transition: all 250ms ease-in-out;
+}
+
+.form {
+    width: 370px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.form-label {
+    padding: 5px;
+    padding-bottom: 5px;
+}
+
+form input[type=text] {
+    padding: 7px;
+    background-color: #ffffff;
+    border-radius: 7px; 
+    border-width: 2px; 
+}
+
+form input[type=text]:focus {
+    padding: 7px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    border-color: rgb(0, 183, 255); 
+    outline: none;
+    box-shadow: blue 0 0 10px;
+}
+
+.section2 {
+    position: relative;
+    width: 1235;
+    height: 327px;
+    background-color: white;
+    border-style: solid 1px black;
+    margin: auto;
+    margin: 150px;
+}
+
+.div-box {
+    position: relative;
+    height: 327px;
+    width: 900px;
+}
+
+.text-div2 {
+    color: black
+    height 100px;
+    width: 300px;
+    font-size: 18px;
+    position: absolute;
+    right: 60%;
+    bottom: 25%;
+}
+
+.text-div3 {
+    color: black;
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    bottom: 45%;
+    right: 0%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 13px;
+}
+
+.blue-button {
+    color: white;
+    background-color: rgb(0, 81, 255);
+    height: 50px;
+    width: 150px;
+    border-radius: 7px;
+    border-style: none;
+    font-size: medium;
+}
+
+.blue-button:hover {
+    background-color: blue;
+    transition: all 500ms ease-in-out;
+}
+
+.text-div4 {
+    color: black;
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    bottom: 45%;
+    right: -35%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 13px;
+}
+
+.small-image {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    right: 0%;
+    bottom: 120px;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
