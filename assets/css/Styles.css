@@ -252,8 +252,10 @@ form input[type=text]:focus {
 
 .div-box {
     position: relative;
-    height: 327px;
-    width: 900px;
+    height: 99%;
+    width: 100%;
+    box-shadow: rgba(70, 69, 69, 0.404) 0 0 15px;
+    border-radius: 10px;
 }
 
 .text-div-two {
@@ -262,7 +264,7 @@ form input[type=text]:focus {
     width: 300px;
     font-size: 18px;
     position: absolute;
-    right: 60%;
+    right: 75%;
     bottom: 15%;
 }
 
@@ -272,7 +274,7 @@ form input[type=text]:focus {
     width: 350px;
     position: absolute;
     bottom: 45%;
-    right: 0%;
+    right: 40%;
     display: block;
     margin: auto;
     text-align: center;
@@ -300,7 +302,7 @@ form input[type=text]:focus {
     width: 350px;
     position: absolute;
     bottom: 45%;
-    right: -35%;
+    right: 5%;
     display: block;
     margin: auto;
     text-align: center;
@@ -365,6 +367,73 @@ form input[type=text]:focus {
     line-height: 45px;
 }
 
-.font-size-11 {
+.font-size-eleven {
     font-size: 11px;
+}
+
+.polka {
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    opacity: 5%;
+    bottom: -17%;
+    left: 6%;
+}
+
+.blue-div {
+    background: rgba(18, 58, 122, 0.8) url('https://github.githubassets.com/images/modules/site/patterns/contribution-graph.svg') ;
+    width: 85%;
+    height: 120px;
+    display: block;
+    border-radius: 7px;
+    color: white;
+    padding: 20px;
+    margin: 50px;
+    margin-top: 30px;
+    opacity: 100%;
+    position: absolute;
+    right: 4%;
+}
+
+.text-div-five {
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+}
+
+#line-height {
+    line-height: 30px;
+}
+
+.button-div {
+    postion: absolute;
+    float: right;
+    margin: 35px;
+}
+
+.blue-button-two {
+    color: white;
+    background-color: rgb(0, 162, 255);;
+    height: 50px;
+    width: 250px;
+    border-radius: 7px;
+    border-style: none;
+    font-size: medium;
+}
+
+.blue-button-two:hover {
+    background-color: rgb(0, 102, 255);
+    transition: all 500ms ease-in-out;
+}
+
+.green-label {
+    color: rgb(6, 196, 6);
+    outline-color: rgb(6, 196, 6);
+    border:solid 1px rgb(6, 196, 6);
+    font-size: 12px;
+    border-radius: 10px;
+    position: absolute;
+    left: -50px;
+    bottom: 80px;
+    padding: 3px;
 }
