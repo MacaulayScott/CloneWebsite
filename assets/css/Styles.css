@@ -161,6 +161,10 @@ h1 {
     font-size: 21px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .underline {
         color: rgb(199, 198, 198);
 }
@@ -436,4 +440,46 @@ form input[type=text]:focus {
     left: -50px;
     bottom: 80px;
     padding: 3px;
+}
+
+.section-three {
+    position: relative;
+    width: 1235;
+    height: 327px;
+    background-color:none;
+    border-style: solid 1px black;
+    margin: auto;
+    margin: 30px;
+}
+
+.section-four {
+    position: relative;
+    width: 1235;
+    height: 327px;
+    background-color:none;
+    border-style: solid 1px black;
+    margin: auto;
+    margin: 40px;
+
+}
+
+.float-left {
+    float: left;
+}
+
+.company-image {
+    height: 50px;
+    width: 80px;
+}
+
+.image-div {
+    display: inline;
+    height: 400px;
+    width:1200px ;
+    padding: 10px;
+}
+
+.text-div-six {
+
+}
 }
